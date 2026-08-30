@@ -1,0 +1,19 @@
+# Auth with polkit-gnome:
+exec /usr/lib/polkit-kde-authentication-agent-1
+
+# Idle configuration
+#exec swayidle idlehint 1
+#exec_always swayidle -w before-sleep "gtklock -d"
+
+# background
+exec awww-daemon -q
+
+# Autotiling
+#exec autotiling
+
+# cliphist
+exec wl-paste --type text --watch cliphist store
+exec wl-paste --type image --watch cliphist store
+
+# bar
+exec vibepanel

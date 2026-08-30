@@ -1,0 +1,209 @@
+# Logo key. Use Mod1 for Alt.
+set $mod Mod4
+
+# Add Vim key support
+set $left h
+set $down j
+set $up k
+set $right l
+
+# Set default terminal emulator
+set $term foot
+
+# Application launcher
+set $launcher fuzzel
+
+# Power Menu
+set $powermenu ~/.config/sway/scripts/power_menu.sh
+
+### Key bindings
+#
+# Basics:
+#
+	# Launch the terminal
+	bindsym $mod+Return exec $term
+
+	# Open the power menu
+	bindsym $mod+Shift+e exec $powermenu
+
+	# Kill focused window
+	bindsym $mod+q kill
+
+	# Start your launcher
+	bindsym $mod+d exec $launcher
+
+	# Lock screen
+	#bindsym $mod+f1 exec gtklock
+
+	# Activities
+	bindsym $mod+tab exec ~/.config/sway/scripts/window_switcher.sh
+
+	# Move windows by holding down $mod and left mouse button.
+	# Resize them with right mouse button + $mod.
+	# Change "normal" to "inverse" to switch left and right
+	floating_modifier $mod normal
+
+	# Reload the configuration file
+	bindsym $mod+Shift+c reload
+
+#
+# Moving around:
+#
+    # Move your focus around
+    bindsym $mod+$left focus left
+    bindsym $mod+$down focus down
+    bindsym $mod+$up focus up
+    bindsym $mod+$right focus right
+    # Or use $mod+[up|down|left|right]
+    bindsym $mod+Left focus left
+    bindsym $mod+Down focus down
+    bindsym $mod+Up focus up
+    bindsym $mod+Right focus right
+
+    # Move the focused window with the same, but add Shift
+    bindsym $mod+Shift+$left move left
+    bindsym $mod+Shift+$down move down
+    bindsym $mod+Shift+$up move up
+    bindsym $mod+Shift+$right move right
+    # Ditto, with arrow keys
+    bindsym $mod+Shift+Left move left
+    bindsym $mod+Shift+Down move down
+    bindsym $mod+Shift+Up move up
+    bindsym $mod+Shift+Right move right
+
+#
+# Workspaces:
+#
+# Workspace bindings are using bindcode instead of bindsym for better Azerty compatibility.
+# https://github.com/EndeavourOS-Community-Editions/sway/pull/81
+# Use wev to find keycodes for setting up other bindings this way.
+
+bindcode {
+    # Switch to workspace
+    $mod+10 workspace number 1
+    $mod+11 workspace number 2
+    $mod+12 workspace number 3
+    $mod+13 workspace number 4
+    $mod+14 workspace number 5
+    $mod+15 workspace number 6
+    $mod+16 workspace number 7
+    $mod+17 workspace number 8
+    $mod+18 workspace number 9
+    $mod+19 workspace number 10
+
+    # Move focused container to workspace
+    $mod+Shift+10 move container to workspace number 1
+    $mod+Shift+11 move container to workspace number 2
+    $mod+Shift+12 move container to workspace number 3
+    $mod+Shift+13 move container to workspace number 4
+    $mod+Shift+14 move container to workspace number 5
+    $mod+Shift+15 move container to workspace number 6
+    $mod+Shift+16 move container to workspace number 7
+    $mod+Shift+17 move container to workspace number 8
+    $mod+Shift+18 move container to workspace number 9
+    $mod+Shift+19 move container to workspace number 10
+}
+# Note: workspaces can have any name you want, not just numbers.
+# We just use 1-10 as the default.
+
+#
+# Layout stuff:
+#
+    # You can "split" the current object of your focus with
+    # $mod+b or $mod+v, for horizontal and vertical splits
+    # respectively.
+    bindsym $mod+b splith
+    bindsym $mod+v splWitv
+
+    # Switch the current container between different layout styles
+    bindsym $mod+s layout stacking
+    bindsym $mod+w layout tabbed
+    #bindsym $mod+e layout toggle split
+
+    # Make the current focus fullscreen
+    bindsym $mod+f fullscreen
+
+    # Toggle the current focus between tiling and floating mode
+    bindsym $mod+Shift+space floating toggle
+
+    # Swap focus between the tiling area and the floating area
+    bindsym $mod+space focus mode_toggle
+
+    # Move focus to the parent container
+    bindsym $mod+a focus parent
+#
+# Scratchpad:
+#
+    # Sway has a "scratchpad", which is a bag of holding for windows.
+    # You can send windows there and get them back later.
+
+    # Move the currently focused window to the scratchpad
+    bindsym $mod+Shift+minus move scratchpad
+
+    # Show the next scratchpad window or hide the focused scratchpad window.
+    # If there are multiple scratchpad windows, this command cycles through them.
+    bindsym $mod+minus scratchpad show
+
+#
+# Resizing containers:
+#
+bindsym {
+    # Resize with arrow keys
+    $mod+ctrl+Right resize shrink width 10 px
+    $mod+ctrl+Up resize grow height 10 px
+    $mod+ctrl+Down resize shrink height 10 px
+    $mod+ctrl+Left resize grow width 10 px
+    # Resize with Vim keys
+    $mod+ctrl+l resize shrink width 10 px
+    $mod+ctrl+k resize grow height 10 px
+    $mod+ctrl+j resize shrink height 10 px
+    $mod+ctrl+h resize grow width 10 px
+}
+
+# Resize floating windows with mouse scroll:
+#bindsym --whole-window --border {
+#    # Resize vertically
+#    $mod+button4 resize shrink height 5 px or 5 ppt
+#    $mod+button5 resize grow height 5 px or 5 ppt
+#    # Resize horizontally
+#    $mod+Shift+button4 resize shrink width 5 px or 5 ppt
+#    $mod+Shift+button5 resize grow width 5 px or 5 ppt
+#}
+#bindsym $mod+button4 workspace next
+
+#
+# Utilities:
+#
+    # Special keys to adjust volume via PulseAudio
+    #bindsym --locked XF86AudioMute exec pactl set-sink-mute \@DEFAULT_SINK@ toggle
+    #bindsym --locked XF86AudioLowerVolume exec pactl set-sink-volume \@DEFAULT_SINK@ -5%
+    #bindsym --locked XF86AudioRaiseVolume exec pactl set-sink-volume \@DEFAULT_SINK@ +5%
+    #bindsym --locked XF86AudioMicMute exec pactl set-source-mute \@DEFAULT_SOURCE@ toggle
+    # Special keys to adjust brightness via brightnessctl
+    #bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
+    #bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
+
+#
+# App shortcuts
+#
+# Launch the file explorer
+bindsym $mod+e exec thunar
+
+# Launch the browser
+#bindsym $mod+b exec firefox
+
+# Launch the clipboard manager
+bindsym $mod+Ctrl+v exec cliphist list | fuzzel -d -w 90 -l 30 -p "Select an entry to copy it to your clipboard buffer:"| cliphist decode | wl-copy
+# Delete an entry from the clipboard manager
+bindsym $mod+Ctrl+x exec cliphist list | fuzzel -d -w 90 -l 30 -t cc9393ff -S cc9393ff -p "Select an entry to delete it from cliphist:"| cliphist delete
+bindsym $mod+Ctrl+w exec cliphist wipe
+
+#
+# Screenshots
+#
+# Snip a selection and pipe to swappy
+bindsym print exec grim -g "$(slurp)" - | swappy -f -
+# Screenshot a window and pipe to swappy
+bindsym Ctrl+Print exec ~/.config/sway/scripts/screenshot_window.sh
+# Screenshot the current display and pipe to swappy
+bindsym Shift+Print exec ~/.config/sway/scripts/screenshot_display.sh

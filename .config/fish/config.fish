@@ -19,3 +19,5 @@ alias audioplayer='amberol'
 set -gx PATH $PATH /home/sviolet/.lmstudio/bin
 # End of LM Studio CLI section
 
+set -Ux EDITOR nvim
+set -Ux VISUAL nvim

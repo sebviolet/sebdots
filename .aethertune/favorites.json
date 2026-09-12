@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Le Bon Mix HiFi Flac 1411 Kbps",
+    "url": "https://stream10.xdevel.com/audio17s976748-2218/stream/icecast.audio",
+    "genre": "eclectic,electro,jazz,pop,rock,world",
+    "country": "France",
+    "bitrate": 0
+  },
+  {
+    "name": "TranceBase.FM - AAC HD 256k",
+    "url": "http://listen.trancebase.fm/tunein-aac-hd-pls",
+    "genre": "electronic,techno,trance",
+    "country": "Germany",
+    "bitrate": 256
+  },
+  {
+    "name": "Sveriges Radio P2 flac",
+    "url": "https://edge1.sr.se/p2-flac",
+    "genre": "classical,jazz",
+    "country": "Sweden",
+    "bitrate": 128
+  },
+  {
+    "name": "Radio Paradise Serenity (fixed) - FLAC ",
+    "url": "http://stream.radioparadise.com/serenity-flac",
+    "genre": "airy,ambiant,concentration,electronic,experimental,hi-res,low-energy,mood musik",
+    "country": "The United States Of America",
+    "bitrate": 1441
+  },
+  {
+    "name": "Fréquence 3 - World FLAC",
+    "url": "https://frequence3.net-radio.fr/frequence3world.flac",
+    "genre": "world music",
+    "country": "France",
+    "bitrate": 128
+  },
+  {
+    "name": "Радио Сектор / Sector Progressive (flac)",
+    "url": "http://89.223.45.5:8000/progressive-flac",
+    "genre": "music,progressive",
+    "country": "The Russian Federation",
+    "bitrate": 1411
+  },
+  {
+    "name": "Radio Caprice - Lo-Fi [2]",
+    "url": "http://79.111.14.76:8000/lo-fi",
+    "genre": "electronic,lo-fi,lofi,radcap",
+    "country": "The Russian Federation",
+    "bitrate": 320
+  },
+  {
+    "name": "Hunter.fm O Canal Lo-Fi (High)",
+    "url": "https://live.hunter.fm/lofi_high",
+    "genre": "lo-fi,lofi",
+    "country": "Brazil",
+    "bitrate": 0
+  },
+  {
+    "name": "Jazz Radio Classic Jazz",
+    "url": "http://jazz-wr01.ice.infomaniak.ch/jazz-wr01-128.mp3",
+    "genre": "classical,jazz",
+    "country": "France",
+    "bitrate": 128
+  },
+  {
+    "name": "dinamo.fm deep",
+    "url": "http://channels.dinamo.fm/deep-mp3",
+    "genre": "deep house,house,nu disco",
+    "country": "Türkiye",
+    "bitrate": 320
+  },
+  {
+    "name": "dinamo.fm fluent",
+    "url": "http://channels.dinamo.fm/fluent-mp3",
+    "genre": "atmospheric,d&b,drum and bass,liquid",
+    "country": "Türkiye",
+    "bitrate": 320
+  }
+]

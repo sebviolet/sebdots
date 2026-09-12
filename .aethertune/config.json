@@ -1,0 +1,8 @@
+{
+  "tick_rate_ms": 10,
+  "volume": 65,
+  "country_code": "FR",
+  "theme": "CRT",
+  "visualizer_enabled": false,
+    "keybindings": {}
+}

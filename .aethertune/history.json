@@ -1,0 +1,402 @@
+[
+  {
+    "name": "Le Bon Mix HiFi Flac 1411 Kbps",
+    "url": "https://stream10.xdevel.com/audio17s976748-2218/stream/icecast.audio",
+    "genre": "eclectic,electro,jazz,pop,rock,world",
+    "country": "France",
+    "bitrate": 0,
+    "played_at": "08/13 21:52"
+  },
+  {
+    "name": "dinamo.fm fluent",
+    "url": "http://channels.dinamo.fm/fluent-mp3",
+    "genre": "atmospheric,d&b,drum and bass,liquid",
+    "country": "Türkiye",
+    "bitrate": 320,
+    "played_at": "08/13 21:52"
+  },
+  {
+    "name": "dinamo.fm deep",
+    "url": "http://channels.dinamo.fm/deep-mp3",
+    "genre": "deep house,house,nu disco",
+    "country": "Türkiye",
+    "bitrate": 320,
+    "played_at": "08/13 21:52"
+  },
+  {
+    "name": "Jazz Radio Classic Jazz",
+    "url": "http://jazz-wr01.ice.infomaniak.ch/jazz-wr01-128.mp3",
+    "genre": "classical,jazz",
+    "country": "France",
+    "bitrate": 128,
+    "played_at": "08/13 21:52"
+  },
+  {
+    "name": "Hunter.fm O Canal Lo-Fi (High)",
+    "url": "https://live.hunter.fm/lofi_high",
+    "genre": "lo-fi,lofi",
+    "country": "Brazil",
+    "bitrate": 0,
+    "played_at": "08/13 21:51"
+  },
+  {
+    "name": "Radio Caprice - Lo-Fi [2]",
+    "url": "http://79.111.14.76:8000/lo-fi",
+    "genre": "electronic,lo-fi,lofi,radcap",
+    "country": "The Russian Federation",
+    "bitrate": 320,
+    "played_at": "08/13 21:51"
+  },
+  {
+    "name": "Радио Сектор / Sector Progressive (flac)",
+    "url": "http://89.223.45.5:8000/progressive-flac",
+    "genre": "music,progressive",
+    "country": "The Russian Federation",
+    "bitrate": 1411,
+    "played_at": "08/13 21:51"
+  },
+  {
+    "name": "Fréquence 3 - World FLAC",
+    "url": "https://frequence3.net-radio.fr/frequence3world.flac",
+    "genre": "world music",
+    "country": "France",
+    "bitrate": 128,
+    "played_at": "08/13 21:51"
+  },
+  {
+    "name": "Radio Paradise Serenity (fixed) - FLAC ",
+    "url": "http://stream.radioparadise.com/serenity-flac",
+    "genre": "airy,ambiant,concentration,electronic,experimental,hi-res,low-energy,mood musik",
+    "country": "The United States Of America",
+    "bitrate": 1441,
+    "played_at": "08/13 21:51"
+  },
+  {
+    "name": "Sveriges Radio P2 flac",
+    "url": "https://edge1.sr.se/p2-flac",
+    "genre": "classical,jazz",
+    "country": "Sweden",
+    "bitrate": 128,
+    "played_at": "08/13 21:51"
+  },
+  {
+    "name": "TranceBase.FM - AAC HD 256k",
+    "url": "http://listen.trancebase.fm/tunein-aac-hd-pls",
+    "genre": "electronic,techno,trance",
+    "country": "Germany",
+    "bitrate": 256,
+    "played_at": "08/13 21:51"
+  },
+  {
+    "name": "Yumi Co. Radio",
+    "url": "https://yumicoradio.net/stream",
+    "genre": "anime groove,city pop,future funk,nu disco,synthwave,vaporwave",
+    "country": "France",
+    "bitrate": 256,
+    "played_at": "06/09 20:08"
+  },
+  {
+    "name": "Nightwave Plaza (Opus 64)",
+    "url": "http://radio.plaza.one/ogg_low",
+    "genre": "future funk,synthwave,vaporwave",
+    "country": "Japan",
+    "bitrate": 96,
+    "played_at": "06/09 20:07"
+  },
+  {
+    "name": "Nightwave Plaza (HLS)",
+    "url": "http://radio.plaza.one/hls",
+    "genre": "future funk,vaporwave",
+    "country": "Japan",
+    "bitrate": 70,
+    "played_at": "06/09 20:07"
+  },
+  {
+    "name": "Nigthwave plaza",
+    "url": "http://radio.plaza.one/mp3",
+    "genre": "jazz,lofi,radio,sigthwave,vaporwave",
+    "country": "Brazil",
+    "bitrate": 128,
+    "played_at": "06/09 20:07"
+  },
+  {
+    "name": "Yumi Co. Radio",
+    "url": "http://s1.yumicoradio.net:8000/stream_aac64",
+    "genre": "anime groove,city pop,future funk,nu disco,synthwave,vaporwave",
+    "country": "France",
+    "bitrate": 64,
+    "played_at": "06/09 20:07"
+  },
+  {
+    "name": "24/7 Vapor Funk Radio (OGG)",
+    "url": "https://radio.zelerk.com/listen/vapor/stream.ogg",
+    "genre": "vaporwave",
+    "country": "The United States Of America",
+    "bitrate": 256,
+    "played_at": "06/09 20:07"
+  },
+  {
+    "name": "SomaFM Vaporwaves (128k AAC)",
+    "url": "https://somafm.com/vaporwaves130.pls",
+    "genre": "vaporwave",
+    "country": "The United States Of America",
+    "bitrate": 128,
+    "played_at": "06/09 20:07"
+  },
+  {
+    "name": "Nightwave Plaza OPUS 96",
+    "url": "http://radio.plaza.one/opus",
+    "genre": "aesthetic,chillwave,futurefunk,lofi,vaporwave",
+    "country": "Japan",
+    "bitrate": 128,
+    "played_at": "06/09 20:07"
+  },
+  {
+    "name": "Radio Caprice - Lo-Fi [3]",
+    "url": "http://79.111.14.76:8004/lo-fi",
+    "genre": "electronic,lo-fi,lofi,radcap",
+    "country": "The Russian Federation",
+    "bitrate": 320,
+    "played_at": "06/09 20:06"
+  },
+  {
+    "name": "DooshFM",
+    "url": "https://a9.asurahosting.com:7050/stream",
+    "genre": "dance,electronic,house,lo-fi,nudisco",
+    "country": "Australia",
+    "bitrate": 208,
+    "played_at": "06/09 20:06"
+  },
+  {
+    "name": "Special-Radio",
+    "url": "https://stream.laut.fm/special-radio",
+    "genre": "alternative,café,café lounge,chill-out,chillout,classic,easy listening,entspannung,filmmusik,focustime,home office,indie,jazz,jazzbar,klassik,lo-fi,lofi,lounge,love,lovemusic,lovesongs,meditation,movie,movies,night,nightbar,orchestral,relax,series,smooth,smooth jazz,soundtracks",
+    "country": "Germany",
+    "bitrate": 128,
+    "played_at": "06/09 20:06"
+  },
+  {
+    "name": "Radio Relax - lo-fi",
+    "url": "https://radio8.dixi.md/listen/relax_lofi/relax_lofi128.aac",
+    "genre": "chill,lo-fi",
+    "country": "The Republic Of Moldova",
+    "bitrate": 128,
+    "played_at": "06/09 20:06"
+  },
+  {
+    "name": "MonteCarlo Nights",
+    "url": "https://mc-chilllonge.hostingradio.ru/chilllonge96.aacp",
+    "genre": "downtempo,jazz,lo-fi,lounge,nu-jazz,smooth jazz,soulful house",
+    "country": "The Russian Federation",
+    "bitrate": 96,
+    "played_at": "06/09 20:06"
+  },
+  {
+    "name": "0R - LO-FI || LoFi, Chill, Study, Hip Hop, Relax, Background, Calm, Instrumental, Smooth, Beats, Coffee, Work, Focus, Soft, Chillhop",
+    "url": "https://0nlineradio.radioho.st/0r-lo-fi?ref=radio-browser26",
+    "genre": "calm,chill,easy listening,easy music,learn,lo-fi,lofi,lofi hip hop,lofi study beats,smooth,student",
+    "country": "Germany",
+    "bitrate": 192,
+    "played_at": "06/09 20:06"
+  },
+  {
+    "name": "Radio Caprice - Lo-Fi [1]",
+    "url": "http://79.111.14.76:8002/lo-fi",
+    "genre": "electronic,lo-fi,lofi,radcap",
+    "country": "The Russian Federation",
+    "bitrate": 48,
+    "played_at": "06/09 20:06"
+  },
+  {
+    "name": "BDPST ROCK Rádió (Hi-Fi / Lossless / FLAC)",
+    "url": "http://s2.audiostream.hu:8091/bdpstrock_FLAC",
+    "genre": "alternative rock,classic rock,indie rock,lossless,metal,pop rock,progressive rock,rock",
+    "country": "Hungary",
+    "bitrate": 0,
+    "played_at": "06/09 19:55"
+  },
+  {
+    "name": "Intense Radio - We love Dance #HQ# FLAC",
+    "url": "http://secure.live-streams.nl/flac.ogg",
+    "genre": "90s,club,dance,house,melodic,techno,trance",
+    "country": "The Netherlands",
+    "bitrate": 1411,
+    "played_at": "06/09 19:55"
+  },
+  {
+    "name": "Albania News 24 TV",
+    "url": "http://tv.balkanweb.com:8081/news24/livestream/playlist.m3u8",
+    "genre": "",
+    "country": "Albania",
+    "bitrate": 727,
+    "played_at": "06/09 19:54"
+  },
+  {
+    "name": "Top Albanian Radio",
+    "url": "https://live.top-media.al/tar",
+    "genre": "",
+    "country": "Albania",
+    "bitrate": 192,
+    "played_at": "06/09 19:54"
+  },
+  {
+    "name": "COPE Albacete",
+    "url": "https://albacete-copesedes-flucast.flumotion.com/copesedes/albacete.mp3.m3u",
+    "genre": "albacete,cope",
+    "country": "Spain",
+    "bitrate": 96,
+    "played_at": "06/09 19:54"
+  },
+  {
+    "name": "RADIO MARIA KOSOVO",
+    "url": "http://dreamsiteradiocp2.com:8124/stream",
+    "genre": "catholic,religion",
+    "country": "Kosovo",
+    "bitrate": 64,
+    "played_at": "06/09 19:54"
+  },
+  {
+    "name": "Radio K4 Shqip",
+    "url": "http://fm.radiokfor.com:8080/;",
+    "genre": "hits,pop,top40",
+    "country": "Kosovo",
+    "bitrate": 128,
+    "played_at": "06/09 19:54"
+  },
+  {
+    "name": "ISHQ FM 104.8",
+    "url": "https://drive.uber.radio/uber/bollywoodlove/icecast.audio",
+    "genre": "",
+    "country": "India",
+    "bitrate": 0,
+    "played_at": "06/09 19:54"
+  },
+  {
+    "name": "Radio Shqip - Tirana 92.0 MHz",
+    "url": "https://cp1.sednastream.com/proxy/radioshqip?mp=/stream",
+    "genre": "",
+    "country": "Albania",
+    "bitrate": 128,
+    "played_at": "06/09 19:53"
+  },
+  {
+    "name": "RTSH Radio Tirana International",
+    "url": "http://79.106.48.2:8000/rti",
+    "genre": "",
+    "country": "Albania",
+    "bitrate": 96,
+    "played_at": "06/09 19:53"
+  },
+  {
+    "name": "MCN Radio - Tirana 103.1 FM",
+    "url": "http://46.183.121.48:8000/mcn",
+    "genre": "",
+    "country": "Albania",
+    "bitrate": 320,
+    "played_at": "06/09 19:53"
+  },
+  {
+    "name": "Radio Club FM - Tirana 100.4 MHz",
+    "url": "https://cp1.sednastream.com/proxy/clubfm?mp=/stream",
+    "genre": "",
+    "country": "Albania",
+    "bitrate": 128,
+    "played_at": "06/09 19:53"
+  },
+  {
+    "name": "Radio Tirana 1",
+    "url": "http://79.106.48.2:8000/radiotirana1",
+    "genre": "shqip",
+    "country": "Albania",
+    "bitrate": 170,
+    "played_at": "06/09 19:53"
+  },
+  {
+    "name": "Radio One - Tirana 95.2 FM",
+    "url": "https://cp1.sednastream.com/proxy/radioone94?mp=/stream",
+    "genre": "",
+    "country": "Albania",
+    "bitrate": 128,
+    "played_at": "06/09 19:53"
+  },
+  {
+    "name": "My Music Radio - Tirana 97.3 FM",
+    "url": "https://live.top-media.al/mmr",
+    "genre": "",
+    "country": "Albania",
+    "bitrate": 128,
+    "played_at": "06/09 19:53"
+  },
+  {
+    "name": "Radio Albatros",
+    "url": "http://stream.inovacast.fr:7601/stream",
+    "genre": "",
+    "country": "France",
+    "bitrate": 320,
+    "played_at": "06/09 19:53"
+  },
+  {
+    "name": "Albayan Radio",
+    "url": "http://s9.viastreaming.net:9645/listen.mp3",
+    "genre": "",
+    "country": "Australia",
+    "bitrate": 96,
+    "played_at": "06/09 19:53"
+  },
+  {
+    "name": "Alba Ciudad 96.3 FM",
+    "url": "https://envivo.albaciudad.org/albaciudad.mp3",
+    "genre": "cultural,entretenimiento,government,noticias,radio hablada,variedad",
+    "country": "Bolivarian Republic Of Venezuela",
+    "bitrate": 128,
+    "played_at": "06/09 19:53"
+  },
+  {
+    "name": "WAMC 90.3 \"Northeast Public Radio\" Albany, NY",
+    "url": "http://provisioning.streamtheworld.com/pls/WAMCFMAAC.pls",
+    "genre": "albany,apm,npr,pri,public radio",
+    "country": "The United States Of America",
+    "bitrate": 64,
+    "played_at": "06/09 19:52"
+  },
+  {
+    "name": "Radio Malbork",
+    "url": "http://stream3.nadaje.com:9022/",
+    "genre": "",
+    "country": "Poland",
+    "bitrate": 128,
+    "played_at": "06/09 19:52"
+  },
+  {
+    "name": "CRIK - The Lynx Classic Rock - Calgary, Alberta, Canada",
+    "url": "https://rock-lynxradio.radioca.st/stream",
+    "genre": "rock",
+    "country": "Canada",
+    "bitrate": 128,
+    "played_at": "06/09 19:52"
+  },
+  {
+    "name": "Qalbim navosi",
+    "url": "http://live.qalbimnavosi.uz/qalbimnavosi",
+    "genre": "",
+    "country": "Uzbekistan",
+    "bitrate": 96,
+    "played_at": "06/09 19:52"
+  },
+  {
+    "name": "Retro Album Rock",
+    "url": "http://ais-edge104-live365-dal02.cdnstream.com/a89824",
+    "genre": "1960s,1970s,1980s,60s,70s,80s,album rock,classic rock,eclectic,free form,obscure,oldies,one hit wonders,progressive rock,retro",
+    "country": "The United States Of America",
+    "bitrate": 128,
+    "played_at": "06/09 19:52"
+  },
+  {
+    "name": "Alba Ciudad Radio 93.6 FM16k",
+    "url": "https://envivo.albaciudad.org/alba16.mp3",
+    "genre": "talk & speech",
+    "country": "Bolivarian Republic Of Venezuela",
+    "bitrate": 128,
+    "played_at": "06/09 19:52"
+  }
+]

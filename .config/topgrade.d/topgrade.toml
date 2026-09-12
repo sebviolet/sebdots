@@ -513,12 +513,3 @@ upgrade = true
 # (default: [] (all channels))
 # channels = ["stable"]
 
-#[skills]
-# Package runner to use to run the `skills` CLI when no local `skills`
-# binary is present in PATH.
-# Allowed values:
-#   npx  (runs `npx skills`)
-#   pnpm (runs `pnpx skills`)
-#   bun  (runs `bunx skills`)
-# (default: npx)
-# package_manager = "npx"

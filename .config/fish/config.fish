@@ -11,7 +11,8 @@ alias ll='lsd -la --header --group-directories-first'
 #pw-metadata -n settings 0 clock.force-rate 96000
 
 alias radio='aethertune --skip-menu'
-alias audioplayer='amberol'
+alias audiophile='pw-metadata -n settings 0 clock.force-rate 192000'
+alias audiotop='pw-top'
 
 #export PATH=%PATH:/home/sviolet/.cargo/bin
 

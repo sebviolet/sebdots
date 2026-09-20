@@ -4,12 +4,12 @@
     "source": "$HOME/Pictures/Wallpapers/*",
     "type": "sixel",
     "recache": true,
-    "height": 18,
-    "width": 50,
+    "height": 19,
+    "width": 48,
+    "padding": {
+       "top": 1
+    },
     "position": "left"
-  },
-  "general": {
-    "thread": true
   },
   "modules": [
 	{
@@ -90,6 +90,6 @@
 	{
 	    "type": "title",
 	    "format": "└─────────────────────────────────────────┘"
-	},
+	}
   ]
 }

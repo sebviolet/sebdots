@@ -10,10 +10,10 @@ environment {
   XDG_SESSION_TYPE "wayland"
 }
 
-cursor {
-  xcursor-theme "catppuccin-mocha-lavender-cursors"
-  xcursor-size 26
-}
+// cursor {
+//   xcursor-theme "catppuccin-mocha-lavender-cursors"
+//   xcursor-size 24
+// }
 
 blur {
   passes 2        // more passes = stronger blur (default: 3)

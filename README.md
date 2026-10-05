@@ -3,7 +3,7 @@
 My dotfiles
 
 Current desktops: Niri
-Previous: Mango, Sway, Hyprland, KDE
+Previous: Mango, Sway, Hyprland
 
 ## SSDM Theme (from CachyOS)
 
